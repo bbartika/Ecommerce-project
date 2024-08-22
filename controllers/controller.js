@@ -4,6 +4,7 @@ const Cartitem = require('../models/cartitem');
 const User = require('../models/user');
 const Items_Per_page = 2;
 
+
 exports.getproducts = async (req, res, next) => {
     try{
         const page = parseInt(req.query.page);
